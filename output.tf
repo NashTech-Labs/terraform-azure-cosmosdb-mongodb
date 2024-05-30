@@ -5,7 +5,7 @@ output "cosmosdb_account_name" {
  
 output "cosmosdb_mongo_database_name" {
   description = "The name of the MongoDB database"
-  value       = azurerm_cosmosdb_mongo_database.example.name
+  value       = azurerm_cosmosdb_mongo_database.test_DB.name
 }
  
 output "cosmosdb_primary_key" {
